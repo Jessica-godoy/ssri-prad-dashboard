@@ -591,5 +591,24 @@ renderizarEvolucao();
         // Inicializar ao carregar a página
         carregarDados();
     </script>
-</body>
+
+        <!-- Link para o Gráfico de Gantt -->
+        <div style="margin-top: 40px; padding: 20px; background-color: #F8FAFC; border-radius: 8px; text-align: center;">
+            <h3 style="color: #1A472A; margin-bottom: 15px;">📊 Análise Detalhada de Cronograma</h3>
+            <p style="color: #4B5563; margin-bottom: 15px;">Visualize o impacto das atividades de SEMEADURA e TOPSOIL no cronograma do projeto</p>
+            <a href="gantt_semeadura_topsoil.html" target="_blank" style="
+                display: inline-block;
+                padding: 12px 30px;
+                background-color: #1A472A;
+                color: white;
+                text-decoration: none;
+                border-radius: 6px;
+                font-weight: bold;
+                transition: background-color 0.3s;
+            " onmouseover="this.style.backgroundColor='#0F3620'" onmouseout="this.style.backgroundColor='#1A472A'">
+                Abrir Gráfico de Gantt
+            </a>
+        </div>
+
+    </body>
 </html>
