@@ -383,7 +383,7 @@
 
         async function carregarDados() {
             try {
-                const response = await fetch('dados_site_interativo.json');
+                const response = await fetch('dados_site_interativo.json?t=1762204505');
                 dadosCompletos = await response.json();
                 
 document.getElementById('data-atualizacao').textContent = dadosCompletos.data_atualizacao;
