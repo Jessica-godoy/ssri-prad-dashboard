@@ -1,14 +1,14 @@
 {
     "indicadores_chave": {
-        "indice_saude_projeto": 34.24,
-        "taxa_conclusao_acumulada": 27.91,
-        "taxa_atividades_risco": 2.33,
-        "velocidade_execucao": 83.41,
-        "desvio_cronograma_medio": -16.18,
-        "total_atividades": 43,
-        "atividades_concluidas": 12,
-        "atividades_em_andamento": 10,
-        "atividades_nao_iniciadas": 21
+        "indice_saude_projeto": 36.06,
+        "taxa_conclusao_acumulada": 28.89,
+        "taxa_atividades_risco": 2.22,
+        "velocidade_execucao": 88.86,
+        "desvio_cronograma_medio": -25.64,
+        "total_atividades": 45,
+        "atividades_concluidas": 13,
+        "atividades_em_andamento": 12,
+        "atividades_nao_iniciadas": 20
     },
     "atividades": [
         {
@@ -23,7 +23,7 @@
         {
             "atividade": "SEMEADURA - SSRI 5 (5/6/7)",
             "tipo": "SEMEADURA",
-            "percentual_concluido": 60.0,
+            "percentual_concluido": 70.0,
             "status": "Em Andamento",
             "desempenho_prazo_dias": 41,
             "duracao_plano": 6,
@@ -95,16 +95,16 @@
         {
             "atividade": "TOPSOIL - SSRI.3",
             "tipo": "TOPSOIL",
-            "percentual_concluido": 0.0,
-            "status": "Não Iniciada",
-            "desempenho_prazo_dias": 0,
+            "percentual_concluido": 20.0,
+            "status": "Em Andamento",
+            "desempenho_prazo_dias": -7,
             "duracao_plano": 5,
             "duracao_real": 2
         },
         {
             "atividade": "SEMEADURA - SSRI.7 - PINHE",
             "tipo": "SEMEADURA",
-            "percentual_concluido": 60.0,
+            "percentual_concluido": 70.0,
             "status": "Em Andamento",
             "desempenho_prazo_dias": -48,
             "duracao_plano": 10,
@@ -158,16 +158,16 @@
         {
             "atividade": "SEMEADURA - SSRI.1",
             "tipo": "SEMEADURA",
-            "percentual_concluido": 60.0,
+            "percentual_concluido": 80.0,
             "status": "Em Andamento",
-            "desempenho_prazo_dias": -52,
+            "desempenho_prazo_dias": -83,
             "duracao_plano": 7,
             "duracao_real": 2
         },
         {
             "atividade": "SEMEADURA - SSRI.2",
             "tipo": "SEMEADURA",
-            "percentual_concluido": 20.0,
+            "percentual_concluido": 40.0,
             "status": "Em Andamento",
             "desempenho_prazo_dias": -91,
             "duracao_plano": 7,
@@ -176,9 +176,9 @@
         {
             "atividade": "SEMEADURA - SSRI.3",
             "tipo": "SEMEADURA",
-            "percentual_concluido": 0.0,
-            "status": "Não Iniciada",
-            "desempenho_prazo_dias": 0,
+            "percentual_concluido": 20.0,
+            "status": "Em Andamento",
+            "desempenho_prazo_dias": -90,
             "duracao_plano": 7,
             "duracao_real": 2
         },
@@ -230,8 +230,8 @@
         {
             "atividade": "CONTROLE DE EROSÃO - SSRI 1",
             "tipo": "CONTROLE DE EROSÃO",
-            "percentual_concluido": 70.0,
-            "status": "Em Andamento",
+            "percentual_concluido": 100.0,
+            "status": "Concluída",
             "desempenho_prazo_dias": -8,
             "duracao_plano": 12,
             "duracao_real": 5
@@ -239,7 +239,7 @@
         {
             "atividade": "CONTROLE DE EROSÃO - SSRI 2",
             "tipo": "CONTROLE DE EROSÃO",
-            "percentual_concluido": 80.0,
+            "percentual_concluido": 90.0,
             "status": "Em Andamento",
             "desempenho_prazo_dias": -11,
             "duracao_plano": 20,
@@ -248,7 +248,7 @@
         {
             "atividade": "CONTROLE DE EROSÃO - SSRI 3",
             "tipo": "CONTROLE DE EROSÃO",
-            "percentual_concluido": 35.0,
+            "percentual_concluido": 65.0,
             "status": "Em Andamento",
             "desempenho_prazo_dias": -21,
             "duracao_plano": 12,
@@ -356,9 +356,9 @@
         {
             "atividade": "SEMEADURA - SSRI.1 - ressemeadura",
             "tipo": "SEMEADURA",
-            "percentual_concluido": 0.0,
-            "status": "Não Iniciada",
-            "desempenho_prazo_dias": 0,
+            "percentual_concluido": 45.0,
+            "status": "Em Andamento",
+            "desempenho_prazo_dias": -157,
             "duracao_plano": 4,
             "duracao_real": 2
         },
@@ -397,12 +397,30 @@
             "desempenho_prazo_dias": 0,
             "duracao_plano": 4,
             "duracao_real": 2
+        },
+        {
+            "atividade": "SEMEADURA - SSRI.6 -ressemeadura ",
+            "tipo": "SEMEADURA",
+            "percentual_concluido": 0.0,
+            "status": "Não Iniciada",
+            "desempenho_prazo_dias": 0,
+            "duracao_plano": 4,
+            "duracao_real": 2
+        },
+        {
+            "atividade": "Controle de erosão - Monitormento",
+            "tipo": "CONTROLE DE EROSÃO",
+            "percentual_concluido": 0.0,
+            "status": "Não Iniciada",
+            "desempenho_prazo_dias": 0,
+            "duracao_plano": 45,
+            "duracao_real": 2
         }
     ],
     "risco_por_tipo": [
         {
             "tipo": "SEMEADURA",
-            "risco_percentual": 4.17
+            "risco_percentual": 4.0
         },
         {
             "tipo": "TOPSOIL",
@@ -416,16 +434,16 @@
     "produtividade_por_tipo": [
         {
             "tipo": "SEMEADURA",
-            "percentual_concluido": 19.35
+            "percentual_concluido": 23.67
         },
         {
             "tipo": "TOPSOIL",
-            "percentual_concluido": 27.76
+            "percentual_concluido": 28.37
         },
         {
             "tipo": "CONTROLE DE EROSÃO",
-            "percentual_concluido": 80.51
+            "percentual_concluido": 58.71
         }
     ],
-    "data_atualizacao": "2025-11-03 18:00:18"
+    "data_atualizacao": "2025-11-17 16:39:22"
 }
